@@ -47,5 +47,6 @@
 .link {
     text-decoration: none;
     color: white;
-    padding-left: 20px;
+    padding-left: 14px;
+    padding-right: 14px;
 }
