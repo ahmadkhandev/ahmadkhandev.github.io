@@ -1,0 +1,51 @@
+.box {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.gradient {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 45deg, #4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%
+    }
+    100% {
+        background-position: 100%
+    }
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 0px;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway-100.ttf);
+}
+
+.text {
+    color: white;
+    font-family: Raleway;
+    font-size: 26px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
